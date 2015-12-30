@@ -1,5 +1,11 @@
-eZ Publish 4 (Referred to as `legacy` in eZ Publish 5.x) [![Build Status](https://secure.travis-ci.org/ezsystems/ezpublish-legacy.png)](http://travis-ci.org/ezsystems/ezpublish-legacy)
-=======================================================
+eZ Publish 4 (Referred to as `legacy` in eZ Publish 5.x) for PHP 7 [![Build Status](https://secure.travis-ci.org/ezsystems/ezpublish-legacy.png)](http://travis-ci.org/ezsystems/ezpublish-legacy)
+==================================================================
+
+Important note:
+---------------
+
+This is a **fork** of ezsystems/ezpublish-legacy hacked to work on PHP 7!
+
 
 What is eZ Publish?
 -------------------
