@@ -39,7 +39,7 @@ class eZTemplateDelimitFunction
      Initializes the object with a name for the left and right delimiter.
      Default is ldelim for left and rdelim for right.
     */
-    function eZTemplateDelimitFunction()
+    function __construct()
     {
         $this->LName = 'ldelim';
         $this->RName = 'rdelim';

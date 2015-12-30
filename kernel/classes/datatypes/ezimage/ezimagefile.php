@@ -17,9 +17,9 @@
 
 class eZImageFile extends eZPersistentObject
 {
-    function eZImageFile( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

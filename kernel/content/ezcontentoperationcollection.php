@@ -24,7 +24,7 @@ class eZContentOperationCollection
     /*!
      Constructor
     */
-    function eZContentOperationCollection()
+    function __construct()
     {
     }
 

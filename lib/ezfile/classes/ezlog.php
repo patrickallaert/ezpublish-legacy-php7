@@ -24,7 +24,7 @@ class eZLog
     /*!
       Creates a new log object.
     */
-    function eZLog( )
+    function __construct( )
     {
     }
 

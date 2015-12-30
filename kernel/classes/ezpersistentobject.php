@@ -49,7 +49,7 @@ class eZPersistentObject
      *
      * @param int|array $row
      */
-    public function eZPersistentObject( $row )
+    public function __construct( $row )
     {
         $this->PersistentDataDirty = false;
         if ( is_numeric( $row ) )

@@ -21,9 +21,9 @@
 
 class eZURL extends eZPersistentObject
 {
-    function eZURL( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

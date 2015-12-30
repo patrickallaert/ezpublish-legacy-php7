@@ -48,7 +48,7 @@ class eZDataType
      Initializes the datatype with the string id \a $dataTypeString and
      the name \a $name.
     */
-    function eZDataType( $dataTypeString, $name, $properties = array() )
+    function __construct( $dataTypeString, $name, $properties = array() )
     {
         $this->DataTypeString = $dataTypeString;
         $this->Name = $name;

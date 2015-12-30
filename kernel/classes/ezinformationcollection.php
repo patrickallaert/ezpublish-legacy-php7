@@ -20,9 +20,9 @@
 
 class eZInformationCollection extends eZPersistentObject
 {
-    function eZInformationCollection( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /*!

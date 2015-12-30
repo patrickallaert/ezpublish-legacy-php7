@@ -34,7 +34,7 @@ class eZTemplateIncludeFunction
     /*!
      Initializes the function with the function name $inc_name.
     */
-    function eZTemplateIncludeFunction( $inc_name = "include" )
+    function __construct( $inc_name = "include" )
     {
         $this->IncludeName = $inc_name;
     }

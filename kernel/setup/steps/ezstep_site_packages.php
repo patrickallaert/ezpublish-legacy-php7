@@ -19,9 +19,9 @@ class eZStepSitePackages extends eZStepInstaller
     /*!
      Constructor
     */
-    function eZStepSitePackages( $tpl, $http, $ini, &$persistenceList )
+    function __construct( $tpl, $http, $ini, &$persistenceList )
     {
-        $this->eZStepInstaller( $tpl, $http, $ini, $persistenceList,
+        parent::__construct( $tpl, $http, $ini, $persistenceList,
                                 'site_packages', 'Site packages' );
     }
 

@@ -22,7 +22,7 @@ class eZTemplateCacheFunction
     /*!
      Initializes the object with names.
     */
-    function eZTemplateCacheFunction( $blockName = 'cache-block' )
+    function __construct( $blockName = 'cache-block' )
     {
         $this->BlockName = $blockName;
     }

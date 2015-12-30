@@ -20,7 +20,7 @@ class eZPaymentCallbackChecker
     /*!
         Constructor.
     */
-    function eZPaymentCallbackChecker( $iniFile )
+    function __construct( $iniFile )
     {
         $this->logger   = eZPaymentLogger::CreateForAdd( 'var/log/eZPaymentChecker.log' );
         $this->ini      = eZINI::instance( $iniFile );

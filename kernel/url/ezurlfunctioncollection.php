@@ -19,7 +19,7 @@ class eZURLFunctionCollection
     /*!
      Constructor
     */
-    function eZURLFunctionCollection()
+    function __construct()
     {
     }
 

@@ -18,9 +18,9 @@
 
 class eZWishList extends eZPersistentObject
 {
-    function eZWishList( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /*!

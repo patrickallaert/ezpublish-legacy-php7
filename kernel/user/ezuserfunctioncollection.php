@@ -19,7 +19,7 @@ class eZUserFunctionCollection
     /*!
      Constructor
     */
-    function eZUserFunctionCollection()
+    function __construct()
     {
     }
 

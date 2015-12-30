@@ -20,9 +20,9 @@ class eZUserAccountKey extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZUserAccountKey( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

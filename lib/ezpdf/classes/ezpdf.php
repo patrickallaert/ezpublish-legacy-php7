@@ -24,7 +24,7 @@ class eZPDF
     /*!
      Initializes the object with the name $name, default is "attribute".
     */
-    function eZPDF( $name = "pdf" )
+    function __construct( $name = "pdf" )
     {
         $this->Operators = array( $name );
         $this->Config = eZINI::instance( 'pdf.ini' );

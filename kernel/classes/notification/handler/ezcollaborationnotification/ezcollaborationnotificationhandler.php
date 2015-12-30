@@ -22,9 +22,9 @@ class eZCollaborationNotificationHandler extends eZNotificationEventHandler
     /*!
      Constructor
     */
-    function eZCollaborationNotificationHandler()
+    function __construct()
     {
-        $this->eZNotificationEventHandler( self::NOTIFICATION_HANDLER_ID, "Collaboration Handler" );
+        parent::__construct( self::NOTIFICATION_HANDLER_ID, "Collaboration Handler" );
     }
 
     function attributes()

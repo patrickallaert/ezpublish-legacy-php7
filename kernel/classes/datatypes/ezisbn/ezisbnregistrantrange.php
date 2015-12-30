@@ -31,9 +31,9 @@ class eZISBNRegistrantRange extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZISBNRegistrantRange( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /*!

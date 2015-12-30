@@ -20,9 +20,9 @@ class eZPolicy extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZPolicy( $row )
+    function __construct( $row )
     {
-          $this->eZPersistentObject( $row );
+          parent::__construct( $row );
           $this->NodeID = 0;
     }
 

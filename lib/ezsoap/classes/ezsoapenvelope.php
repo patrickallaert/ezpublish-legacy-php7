@@ -35,7 +35,7 @@ class eZSOAPEnvelope
     /*!
       Constructs a new SOAP envelope object.
     */
-    function eZSOAPEnvelope( )
+    function __construct( )
     {
         $this->Header = new eZSOAPHeader();
         $this->Body = new eZSOAPBody();

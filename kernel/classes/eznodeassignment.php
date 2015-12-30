@@ -35,11 +35,11 @@ class eZNodeAssignment extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZNodeAssignment( $row )
+    function __construct( $row )
     {
         $this->TempNode = null;
         $this->Name = false;
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

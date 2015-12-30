@@ -33,7 +33,7 @@ class eZImageAnalyzer
     /*!
      Constructor
     */
-    function eZImageAnalyzer()
+    function __construct()
     {
         $this->Name = false;
         $this->MIMEList = array();

@@ -19,7 +19,7 @@ class eZShopFunctionCollection
     /*!
      Constructor
     */
-    function eZShopFunctionCollection()
+    function __construct()
     {
     }
 

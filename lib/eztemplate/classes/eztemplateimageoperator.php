@@ -25,7 +25,7 @@ class eZTemplateImageOperator
     /*!
      Initializes the image operator with the operator name $name.
     */
-    function eZTemplateImageOperator( $texttoimageName = "texttoimage",
+    function __construct( $texttoimageName = "texttoimage",
                                       $imageName = "image",
                                       $imagefileName = "imagefile" )
     {

@@ -41,9 +41,9 @@ class eZApproveCollaborationHandler extends eZCollaborationItemHandler
     /*!
      Initializes the handler
     */
-    function eZApproveCollaborationHandler()
+    function __construct()
     {
-        $this->eZCollaborationItemHandler( 'ezapprove',
+        parent::__construct( 'ezapprove',
                                            ezpI18n::tr( 'kernel/classes', 'Approval' ),
                                            array( 'use-messages' => true,
                                                   'notification-types' => true,

@@ -17,7 +17,7 @@
 
 class eZAlphabetOperator
 {
-    function eZAlphabetOperator( $alphabet = 'alphabet' )
+    function __construct( $alphabet = 'alphabet' )
     {
         $this->Operators = array( $alphabet );
         $this->Alphabet = $alphabet;

@@ -31,7 +31,7 @@ class eZISBN13
      \param $separator is the hyphen used in the ISBN number to make the
                        ISBN number more visible.
     */
-    function eZISBN13( $isbnNr = null, $separator = '-' )
+    function __construct( $isbnNr = null, $separator = '-' )
     {
         if ( $isbnNr !== null )
         {

@@ -31,9 +31,9 @@ class eZContentObjectPackageHandler extends eZPackageHandler
     /*!
      Constructor
     */
-    function eZContentObjectPackageHandler()
+    function __construct()
     {
-        $this->eZPackageHandler( 'ezcontentobject',
+        parent::__construct( 'ezcontentobject',
                                  array( 'extract-install-content' => true ) );
     }
 

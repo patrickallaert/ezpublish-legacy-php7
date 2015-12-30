@@ -22,9 +22,9 @@ class eZOrder extends eZPersistentObject
     const SHOW_ARCHIVED = 1;
     const SHOW_ALL = 2;
 
-    function eZOrder( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
         $this->Status = null;
     }
 

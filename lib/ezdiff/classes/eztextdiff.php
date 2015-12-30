@@ -22,7 +22,7 @@ class eZTextDiff extends eZDiffContent
     /*!
       Constructor
     */
-    function eZTextDiff()
+    function __construct()
     {
     }
 }

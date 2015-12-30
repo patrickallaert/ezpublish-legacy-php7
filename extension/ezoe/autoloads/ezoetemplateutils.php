@@ -35,7 +35,7 @@
 
 class eZOETemplateUtils
 {
-    function eZOETemplateUtils()
+    function __construct()
     {
     }
 

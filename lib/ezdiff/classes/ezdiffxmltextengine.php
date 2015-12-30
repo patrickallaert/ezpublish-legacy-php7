@@ -16,7 +16,7 @@
 
 class eZDiffXMLTextEngine extends eZDiffEngine
 {
-    function eZDiffXMLTextEngine()
+    function __construct()
     {
     }
 

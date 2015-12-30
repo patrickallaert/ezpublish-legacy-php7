@@ -19,7 +19,7 @@ class eZContentObjectAssignmentHandler
     /*!
      Constructor
     */
-    function eZContentObjectAssignmentHandler( $contentObject, $contentVersion )
+    function __construct( $contentObject, $contentVersion )
     {
         $this->CurrentObject = $contentObject;
         $this->CurrentVersion = $contentVersion;

@@ -19,7 +19,7 @@ class eZSMTPTransport extends eZMailTransport
     /*!
      Constructor
     */
-    function eZSMTPTransport()
+    function __construct()
     {
     }
 

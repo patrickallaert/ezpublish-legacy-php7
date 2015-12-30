@@ -20,9 +20,9 @@ class eZGeneralDigestHandler extends eZNotificationEventHandler
     /*!
      Constructor
     */
-    function eZGeneralDigestHandler()
+    function __construct()
     {
-        $this->eZNotificationEventHandler( self::NOTIFICATION_HANDLER_ID, "General Digest Handler" );
+        parent::__construct( self::NOTIFICATION_HANDLER_ID, "General Digest Handler" );
 
     }
 

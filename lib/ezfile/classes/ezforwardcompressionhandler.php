@@ -21,11 +21,11 @@ class eZForwardCompressionHandler extends eZCompressionHandler
     /*!
      See eZCompressionHandler::eZCompressionHandler
     */
-    function eZForwardCompressionHandler( &$handler,
+    function __construct( &$handler,
                                           $name, $identifier )
     {
         $this->ForwardHandler =& $handler;
-        $this->eZCompressionHandler( $name, $identifier );
+        parent::__construct( $name, $identifier );
     }
 
     /*!

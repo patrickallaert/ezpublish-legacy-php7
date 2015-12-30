@@ -38,7 +38,7 @@
 
 class ezjscAccessTemplateFunctions
 {
-    function ezjscAccessTemplateFunctions()
+    function __construct()
     {
     }
 

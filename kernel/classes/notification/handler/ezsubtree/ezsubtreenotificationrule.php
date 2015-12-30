@@ -18,9 +18,9 @@ class eZSubtreeNotificationRule extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZSubtreeNotificationRule( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

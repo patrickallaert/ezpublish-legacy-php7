@@ -21,7 +21,7 @@ class eZTemplateTextElement
     /*!
      Initializes the object with the text.
     */
-    function eZTemplateTextElement( $text )
+    function __construct( $text )
     {
         $this->Text = $text;
     }

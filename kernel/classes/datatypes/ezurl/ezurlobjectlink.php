@@ -20,9 +20,9 @@ class eZURLObjectLink extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZURLObjectLink( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

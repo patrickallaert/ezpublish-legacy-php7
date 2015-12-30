@@ -18,9 +18,9 @@
 
 class eZProductCollectionItem extends eZPersistentObject
 {
-    function eZProductCollectionItem( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

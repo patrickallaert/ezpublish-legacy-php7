@@ -60,7 +60,7 @@ class eZDate
      Creates a new date object with default locale, if $date is not supplied
      the current date is used.
     */
-    function eZDate( $date = false )
+    function __construct( $date = false )
     {
         if ( $date === false )
         {

@@ -22,7 +22,7 @@ class eZMath
     /*!
      Constructor
     */
-    function eZMath()
+    function __construct()
     {
     }
 

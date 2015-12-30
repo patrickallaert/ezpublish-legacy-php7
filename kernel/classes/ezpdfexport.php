@@ -26,9 +26,9 @@ class eZPDFExport extends eZPersistentObject
     /*!
      Initializes a new eZPDFExport.
     */
-    function eZPDFExport( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

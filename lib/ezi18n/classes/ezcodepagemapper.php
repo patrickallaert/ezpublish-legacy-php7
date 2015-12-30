@@ -21,7 +21,7 @@ class eZCodePageMapper
     /*!
      Constructor
     */
-    function eZCodePageMapper( $input_charset_code, $output_charset_code, $use_cache = true )
+    function __construct( $input_charset_code, $output_charset_code, $use_cache = true )
     {
         $this->RequestedInputCharsetCode = $input_charset_code;
         $this->InputCharsetCode = eZCharsetInfo::realCharsetCode( $input_charset_code );

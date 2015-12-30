@@ -26,9 +26,9 @@ class eZPaymentObject extends eZPersistentObject
     /*!
     Constructor.
     */
-    function eZPaymentObject( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /*!

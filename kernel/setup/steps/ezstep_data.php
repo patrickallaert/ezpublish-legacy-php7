@@ -16,7 +16,7 @@
 
 class eZStepData
 {
-    function eZStepData( )
+    function __construct( )
     {
     }
 

@@ -55,7 +55,7 @@ class eZTemplateBlockFunction
     /*!
      Initializes the object with names.
     */
-    function eZTemplateBlockFunction( $blockName = 'set-block',
+    function __construct( $blockName = 'set-block',
                                       $appendBlockName = 'append-block',
                                       $onceName = 'run-once' )
     {

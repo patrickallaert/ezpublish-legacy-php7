@@ -57,7 +57,7 @@ class eZSOAPClient
                    used if $useSSL is omitted or set to true.
       \param $useSSL If we need to connect to the remote server with (https://) or without (http://) SSL
     */
-    function eZSOAPClient( $server, $path = '/', $port = 80, $useSSL = null )
+    function __construct( $server, $path = '/', $port = 80, $useSSL = null )
     {
         $this->Login = "";
         $this->Password = "";

@@ -20,7 +20,7 @@ class eZRangeOption
     /*!
      Constructor
     */
-    function eZRangeOption( $name )
+    function __construct( $name )
     {
         $this->Name = $name;
         $this->Options = array();

@@ -22,9 +22,9 @@ class eZSubTreeHandler extends eZNotificationEventHandler
     /*!
      Constructor
     */
-    function eZSubTreeHandler()
+    function __construct()
     {
-        $this->eZNotificationEventHandler( self::NOTIFICATION_HANDLER_ID, "Subtree Handler" );
+        parent::__construct( self::NOTIFICATION_HANDLER_ID, "Subtree Handler" );
     }
 
     function attributes()

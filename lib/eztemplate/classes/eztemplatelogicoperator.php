@@ -69,7 +69,7 @@ class eZTemplateLogicOperator
     /*!
      Initializes the operator class with the various operator names.
     */
-    function eZTemplateLogicOperator()
+    function __construct()
     {
         $this->Operators = array( 'lt', 'gt', 'le', 'ge', 'eq', 'ne',
                                   'null', 'not',

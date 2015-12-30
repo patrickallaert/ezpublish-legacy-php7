@@ -115,7 +115,7 @@ class eZLocale
      Initializes the locale with the locale string \a $localeString.
      All locale data is read from locale/$localeString.ini
     */
-    function eZLocale( $localeString )
+    function __construct( $localeString )
     {
         $this->IsValid = false;
         $this->TimePHPArray = array( 'g', 'G', 'h', 'H', 'i', 's', 'U', 'I', 'L', 't' );

@@ -19,7 +19,7 @@ class eZDateTimeValidator extends eZInputValidator
     /*!
      Constructor
     */
-    function eZDateTimeValidator()
+    function __construct()
     {
     }
 

@@ -73,9 +73,9 @@ class eZPgsqlSchema extends eZDBSchemaInterface
 
      \param db instance
     */
-    function eZPgsqlSchema( $db )
+    function __construct( $db )
     {
-        $this->eZDBSchemaInterface( $db );
+        parent::__construct( $db );
     }
 
     function schema( $params = array() )

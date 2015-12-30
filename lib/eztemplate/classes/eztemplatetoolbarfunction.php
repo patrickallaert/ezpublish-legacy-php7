@@ -20,7 +20,7 @@ class eZTemplateToolbarFunction
     /*!
      Initializes the object with names.
     */
-    function eZTemplateToolbarFunction( $blockName = 'tool_bar' )
+    function __construct( $blockName = 'tool_bar' )
     {
         $this->BlockName = $blockName;
     }

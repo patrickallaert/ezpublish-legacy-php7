@@ -19,7 +19,7 @@
 
 class eZDiffContainerObjectEngine extends eZDiffEngine
 {
-    function eZDiffContainerObjectEngine()
+    function __construct()
     {
     }
 

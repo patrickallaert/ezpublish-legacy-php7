@@ -25,9 +25,9 @@ class eZISBNGroup extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZISBNGroup( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /*!

@@ -17,7 +17,7 @@ class eZExpiryHandler
     /**
      * Constructor
      */
-    function eZExpiryHandler()
+    function __construct()
     {
         $this->Timestamps = array();
         $this->IsModified = false;

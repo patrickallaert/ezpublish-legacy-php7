@@ -35,7 +35,7 @@ class eZContentBrowse
      Initializes the object with the session data if they are found.
      If \a $params is supplied it used instead.
     */
-    function eZContentBrowse( $params = array() )
+    function __construct( $params = array() )
     {
         $http = eZHTTPTool::instance();
         if ( !$params && $http->hasSessionVariable( 'BrowseParameters' ) )

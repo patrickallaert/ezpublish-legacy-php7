@@ -19,7 +19,7 @@ class eZSearchFunctionCollection
     /*!
      Constructor
     */
-    function eZSearchFunctionCollection()
+    function __construct()
     {
     }
 

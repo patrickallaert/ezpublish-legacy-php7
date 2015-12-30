@@ -22,7 +22,7 @@ class eZCodePage
     /*!
      Initializes the codepage with the charset code $charset_code, and then loads it.
     */
-    function eZCodePage( $charset_code, $use_cache = true )
+    function __construct( $charset_code, $use_cache = true )
     {
         $this->RequestedCharsetCode = $charset_code;
         $this->CharsetCode = eZCharsetInfo::realCharsetCode( $charset_code );

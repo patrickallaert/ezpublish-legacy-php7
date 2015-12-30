@@ -41,7 +41,7 @@ class eZTemplateArithmeticOperator
     /*!
      Constructor
     */
-    function eZTemplateArithmeticOperator()
+    function __construct()
     {
         $this->Operators = array( 'sum', 'sub', 'inc', 'dec',
                                   'div', 'mod', 'mul',

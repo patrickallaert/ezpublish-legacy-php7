@@ -42,7 +42,7 @@
 
 class ezjscEncodingTemplateFunctions
 {
-    function ezjscEncodingTemplateFunctions()
+    function __construct()
     {
     }
 

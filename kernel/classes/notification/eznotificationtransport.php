@@ -18,7 +18,7 @@ class eZNotificationTransport
     /*!
      Constructor
     */
-    function eZNotificationTransport()
+    function __construct()
     {
     }
 

@@ -115,7 +115,7 @@ class eZMultiOption
     /*!
      Initializes with empty multioption list.
     */
-    function eZMultiOption( $name )
+    function __construct( $name )
     {
         $this->Name = $name;
         $this->Options = array();

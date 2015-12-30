@@ -37,7 +37,7 @@ class eZSiteAccess
     /*!
      Constructor
     */
-    function eZSiteAccess()
+    function __construct()
     {
     }
 

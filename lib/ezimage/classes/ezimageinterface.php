@@ -18,7 +18,7 @@
 
 class eZImageInterface
 {
-    function eZImageInterface( $imageObjectRef = null, $imageObject = null, $width = false, $height = false )
+    function __construct( $imageObjectRef = null, $imageObject = null, $width = false, $height = false )
     {
         $this->ImageObjectRef = $imageObjectRef;
         $this->ImageObject = $imageObject;

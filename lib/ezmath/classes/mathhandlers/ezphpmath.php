@@ -15,7 +15,7 @@
 
 class eZPHPMath
 {
-    function eZPHPMath( $params = array() )
+    function __construct( $params = array() )
     {
     }
 

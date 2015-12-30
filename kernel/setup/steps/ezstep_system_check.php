@@ -19,9 +19,9 @@ class eZStepSystemCheck extends eZStepInstaller
     /*!
      Constructor
     */
-    function eZStepSystemCheck( $tpl, $http, $ini, &$persistenceList )
+    function __construct( $tpl, $http, $ini, &$persistenceList )
     {
-        $this->eZStepInstaller( $tpl, $http, $ini, $persistenceList,
+        parent::__construct( $tpl, $http, $ini, $persistenceList,
                                 'system_check', 'System check' );
     }
 

@@ -27,7 +27,7 @@ class eZCollaborationItemHandler
      Initializes the handler with identifier and name.
      Optional parameters can be placed in \a $parameters.
     */
-    function eZCollaborationItemHandler( $typeIdentifier, $typeName, $parameters = array() )
+    function __construct( $typeIdentifier, $typeName, $parameters = array() )
     {
         $parameters = array_merge( array( 'use-messages' => false,
                                           'type-class-list' => array(),

@@ -20,7 +20,7 @@ class eZContentObjectEditHandler
     /*!
      Constructor
     */
-    function eZContentObjectEditHandler()
+    function __construct()
     {
     }
 

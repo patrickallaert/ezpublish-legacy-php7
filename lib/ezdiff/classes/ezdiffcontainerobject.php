@@ -19,7 +19,7 @@ class eZDiffContainerObject extends eZDiffContent
     /*!
       Constructor
     */
-    function eZDiffContainerObject()
+    function __construct()
     {
     }
 }

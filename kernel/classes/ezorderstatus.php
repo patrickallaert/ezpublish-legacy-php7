@@ -56,9 +56,9 @@ class eZOrderStatus extends eZPersistentObject
     // All custom order statuses have this value or higher
     const CUSTOM = 1000;
 
-    function eZOrderStatus( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /*!

@@ -25,9 +25,9 @@ class eZMySQLiDB extends eZDBInterface
     /*!
       Create a new eZMySQLiDB object and connects to the database backend.
     */
-    function eZMySQLiDB( $parameters )
+    function __construct( $parameters )
     {
-        $this->eZDBInterface( $parameters );
+        parent::__construct( $parameters );
 
         if ( !extension_loaded( 'mysqli' ) )
         {

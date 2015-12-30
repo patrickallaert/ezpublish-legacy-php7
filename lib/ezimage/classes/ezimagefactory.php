@@ -22,7 +22,7 @@ class eZImageFactory
     /*!
      Initializes the factory with the name \a $name.
     */
-    function eZImageFactory( $name )
+    function __construct( $name )
     {
         $this->Name = $name;
     }

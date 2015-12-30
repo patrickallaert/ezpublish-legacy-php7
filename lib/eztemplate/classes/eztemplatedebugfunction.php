@@ -64,7 +64,7 @@ class eZTemplateDebugFunction
     /*!
      Initializes the object with names.
     */
-    function eZTemplateDebugFunction( $timingPoint = 'debug-timing-point',
+    function __construct( $timingPoint = 'debug-timing-point',
                                       $accumulator = 'debug-accumulator',
                                       $log = 'debug-log',
                                       $trace = 'debug-trace' )

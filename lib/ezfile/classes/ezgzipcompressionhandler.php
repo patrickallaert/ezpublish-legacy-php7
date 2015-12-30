@@ -23,7 +23,7 @@ class eZGZIPCompressionHandler extends eZForwardCompressionHandler
     /*!
      See eZCompressionHandler::eZCompressionHandler and eZForwardCompressionHandler::eZForwardCompressionHandler.
     */
-    function eZGZIPCompressionHandler()
+    function __construct()
     {
         if ( eZGZIPZLIBCompressionHandler::isAvailable() )
             $handler = new eZGZIPZLIBCompressionHandler();
@@ -31,7 +31,7 @@ class eZGZIPCompressionHandler extends eZForwardCompressionHandler
             $handler = new eZGZIPShellCompressionHandler();
         else
             $handler = new eZNoCompressionHandler();
-        $this->eZForwardCompressionHandler( $handler,
+        parent::__construct( $handler,
                                             'GZIP', 'gzip' );
     }
 

@@ -13,7 +13,7 @@ class eZDefaultBasketInfoHandler
     /*!
      Constructor
     */
-    function eZDefaultBasketInfoHandler()
+    function __construct()
     {
     }
 

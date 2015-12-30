@@ -10,7 +10,7 @@
 
 class eZShopFunctions
 {
-    function eZShopFunctions()
+    function __construct()
     {
     }
 

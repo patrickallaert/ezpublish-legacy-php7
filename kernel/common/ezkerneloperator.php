@@ -18,7 +18,7 @@ class eZKernelOperator
     /*!
      Initializes the object with the name $name
     */
-    function eZKernelOperator( $name = "ezpreference" )
+    function __construct( $name = "ezpreference" )
     {
         $this->Operators = array( $name );
     }

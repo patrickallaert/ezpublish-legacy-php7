@@ -18,7 +18,7 @@ class eZShopOperationCollection
     /*!
      Constructor
     */
-    function eZShopOperationCollection()
+    function __construct()
     {
     }
 

@@ -76,7 +76,7 @@ class eZPHPCreator
     /*!
      Initializes the creator with the directory path \a $dir and filename \a $file.
     */
-    function eZPHPCreator( $dir, $file, $prefix = '', $options = array() )
+    function __construct( $dir, $file, $prefix = '', $options = array() )
     {
         $this->PHPDir = $dir;
         $this->PHPFile = $file;

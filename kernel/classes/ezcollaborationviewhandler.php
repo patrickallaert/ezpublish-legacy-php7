@@ -22,7 +22,7 @@ class eZCollaborationViewHandler
     /*!
      Initializes the view mode.
     */
-    function eZCollaborationViewHandler( $viewMode, $viewType )
+    function __construct( $viewMode, $viewType )
     {
         $this->ViewMode = $viewMode;
         $this->ViewType = $viewType;

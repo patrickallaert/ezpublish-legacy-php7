@@ -15,7 +15,7 @@
 */
 class eZTemplateCompiledLoop
 {
-    function eZTemplateCompiledLoop( $name, &$newNodes, $parameters, $nodePlacement, $uniqid,
+    function __construct( $name, &$newNodes, $parameters, $nodePlacement, $uniqid,
                                      $node, $tpl, $privateData )
     {
         $this->Name          = $name;

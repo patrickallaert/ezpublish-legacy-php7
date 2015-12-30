@@ -18,7 +18,7 @@ class eZPaymentGateway
     /*!
     Constructor.
     */
-    function eZPaymentGateway()
+    function __construct()
     {
         $this->logger = eZPaymentLogger::CreateForAdd( "var/log/eZPaymentGateway.log" );
     }

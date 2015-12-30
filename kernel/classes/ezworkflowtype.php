@@ -30,7 +30,7 @@ class eZWorkflowType
     const STATUS_REDIRECT_REPEAT = 11;
     const STATUS_WORKFLOW_RESET = 12;
 
-    function eZWorkflowType( $group, $type,
+    function __construct( $group, $type,
                              $groupName, $name )
     {
         $this->Group = $group;

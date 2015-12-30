@@ -87,7 +87,7 @@ class eZImageManager
      Initializes the manager by registering a application/octet-stream mimetype
      which is applied for all unknown files.
     */
-    function eZImageManager()
+    function __construct()
     {
         $this->SupportedFormats = array();
         $this->SupportedMIMEMap = array();

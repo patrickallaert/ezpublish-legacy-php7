@@ -19,9 +19,9 @@ class eZNoCompressionHandler extends eZCompressionHandler
     /*!
      See eZCompressionHandler::eZCompressionHandler
     */
-    function eZNoCompressionHandler()
+    function __construct()
     {
-        $this->eZCompressionHandler( 'No compression', 'no' );
+        parent::__construct( 'No compression', 'no' );
     }
 }
 

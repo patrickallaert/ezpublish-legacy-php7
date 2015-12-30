@@ -24,7 +24,7 @@ class eZModuleFunctionInfo
     /*!
      Constructor
     */
-    function eZModuleFunctionInfo( $moduleName )
+    function __construct( $moduleName )
     {
         $this->ModuleName = $moduleName;
         $this->IsValid = false;

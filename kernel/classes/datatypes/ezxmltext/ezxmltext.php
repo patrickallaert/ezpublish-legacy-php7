@@ -17,7 +17,7 @@
 
 class eZXMLText
 {
-    function eZXMLText( $xmlData, $contentObjectAttribute )
+    function __construct( $xmlData, $contentObjectAttribute )
     {
         $this->XMLData = $xmlData;
         $this->ContentObjectAttribute = $contentObjectAttribute;

@@ -26,7 +26,7 @@ class eZWizardBase
      \param $module Module
      \param $storageName Storage Name, optional.
     */
-    function eZWizardBase( $tpl, &$module, $storageName = false )
+    function __construct( $tpl, &$module, $storageName = false )
     {
         if ( $storageName )
         {

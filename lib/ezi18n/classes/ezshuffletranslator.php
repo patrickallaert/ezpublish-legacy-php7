@@ -20,9 +20,9 @@ class eZShuffleTranslator extends eZTranslatorHandler
     /*!
      Construct the translator and loads the translation file $file if is set and exists.
     */
-    function eZShuffleTranslator( $max_chars = 3 )
+    function __construct( $max_chars = 3 )
     {
-        $this->eZTranslatorHandler( false );
+        parent::__construct( false );
 
         $this->MaxChars = $max_chars;
         $this->Messages = array();

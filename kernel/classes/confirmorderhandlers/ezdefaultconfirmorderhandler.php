@@ -19,7 +19,7 @@ class eZDefaultConfirmOrderHandler
     /*!
      Constructor
     */
-    function eZDefaultConfirmOrderHandler()
+    function __construct()
     {
     }
 

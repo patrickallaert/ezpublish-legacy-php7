@@ -19,9 +19,9 @@ class eZCollaborationProfile extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZCollaborationProfile( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

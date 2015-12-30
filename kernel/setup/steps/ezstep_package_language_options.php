@@ -19,9 +19,9 @@ class eZStepPackageLanguageOptions extends eZStepInstaller
     /*!
      Constructor
     */
-    function eZStepPackageLanguageOptions( $tpl, $http, $ini, &$persistenceList )
+    function __construct( $tpl, $http, $ini, &$persistenceList )
     {
-        $this->eZStepInstaller( $tpl, $http, $ini, $persistenceList,
+        parent::__construct( $tpl, $http, $ini, $persistenceList,
                                 'package_language_options', 'Package language options' );
     }
 

@@ -15,7 +15,7 @@
 
 class eZContentStructureTreeOperator
 {
-    function eZContentStructureTreeOperator( $name = 'content_structure_tree' )
+    function __construct( $name = 'content_structure_tree' )
     {
         $this->Operators = array( $name );
     }

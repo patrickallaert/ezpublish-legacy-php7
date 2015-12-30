@@ -24,9 +24,9 @@ class eZExtensionPackageHandler extends eZPackageHandler
     /*!
      Constructor
     */
-    function eZExtensionPackageHandler()
+    function __construct()
     {
-        $this->eZPackageHandler( 'ezextension',
+        parent::__construct( 'ezextension',
                                  array( 'extract-install-content' => true ) );
     }
 

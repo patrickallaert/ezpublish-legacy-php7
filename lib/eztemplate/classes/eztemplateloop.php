@@ -11,7 +11,7 @@
 // private class, should not be used outside of this file
 class eZTemplateLoopSequence
 {
-    function eZTemplateLoopSequence( $array )
+    function __construct( $array )
     {
         $this->ArrayRef = $array;
         $this->CurVal   =  current( $this->ArrayRef );
@@ -42,7 +42,7 @@ class eZTemplateLoopSequence
 */
 class eZTemplateLoop
 {
-    function eZTemplateLoop( $functionName, &$functionParameters, $functionChildren, $functionPlacement,
+    function __construct( $functionName, &$functionParameters, $functionChildren, $functionPlacement,
                              $tpl, &$textElements, $rootNamespace, $currentNamespace )
     {
         $this->SkipDelimiter         = true;

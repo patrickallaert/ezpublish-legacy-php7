@@ -20,9 +20,9 @@ class eZEnumValue extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZEnumValue( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

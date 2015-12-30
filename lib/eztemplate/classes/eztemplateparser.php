@@ -19,7 +19,7 @@ class eZTemplateParser
     /*!
      Constructor
     */
-    function eZTemplateParser()
+    function __construct()
     {
     }
 

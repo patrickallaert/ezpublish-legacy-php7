@@ -19,9 +19,9 @@ class eZMailNotificationTransport extends eZNotificationTransport
     /*!
      Constructor
     */
-    function eZMailNotificationTransport()
+    function __construct()
     {
-        $this->eZNotificationTransport();
+        parent::__construct();
     }
 
     function send( $addressList = array(), $subject, $body, $transportData = null, $parameters = array() )

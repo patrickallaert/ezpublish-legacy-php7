@@ -33,7 +33,7 @@ class eZExtension
     /*!
      Constructor
     */
-    function eZExtension()
+    function __construct()
     {
     }
 

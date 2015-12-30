@@ -19,7 +19,7 @@ class eZCollaborationFunctionCollection
     /*!
      Constructor
     */
-    function eZCollaborationFunctionCollection()
+    function __construct()
     {
     }
 

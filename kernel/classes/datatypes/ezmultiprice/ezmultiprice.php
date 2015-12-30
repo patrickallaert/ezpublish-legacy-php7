@@ -38,9 +38,9 @@ class eZMultiPrice extends eZSimplePrice
     /*!
      Constructor
     */
-    function eZMultiPrice( $classAttribute, $contentObjectAttribute, $storedPrice = null )
+    function __construct( $classAttribute, $contentObjectAttribute, $storedPrice = null )
     {
-        eZSimplePrice::eZSimplePrice( $classAttribute, $contentObjectAttribute, $storedPrice );
+        parent::__construct( $classAttribute, $contentObjectAttribute, $storedPrice );
 
         $isVatIncluded = ( $classAttribute->attribute( eZMultiPriceType::INCLUDE_VAT_FIELD ) == 1 );
         $VATID = $classAttribute->attribute( eZMultiPriceType::VAT_ID_FIELD );
@@ -66,7 +66,7 @@ class eZMultiPrice extends eZSimplePrice
                                                  'ex_vat_price_list',
                                                  'discount_inc_vat_price_list',
                                                  'discount_ex_vat_price_list' ),
-                                          eZSimplePrice::attributes() ) );
+                                          parent::attributes() ) );
     }
 
     /*!
@@ -106,7 +106,7 @@ class eZMultiPrice extends eZSimplePrice
 
             default:
             {
-                eZSimplePrice::setAttribute( $attr, $value );
+                parent::setAttribute( $attr, $value );
             } break;
         }
     }
@@ -165,7 +165,7 @@ class eZMultiPrice extends eZSimplePrice
 
             default :
             {
-                return eZSimplePrice::attribute( $attr );
+                return parent::attribute( $attr );
             } break;
         }
     }

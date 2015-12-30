@@ -31,7 +31,7 @@ class eZPackage
     /*!
      Constructor
     */
-    function eZPackage( $parameters = array(), $repositoryPath = false )
+    function __construct( $parameters = array(), $repositoryPath = false )
     {
         $this->setParameters( $parameters );
         if ( !$repositoryPath )

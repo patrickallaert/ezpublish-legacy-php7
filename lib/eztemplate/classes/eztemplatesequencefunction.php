@@ -35,7 +35,7 @@ class eZTemplateSequenceFunction
     /*!
      Initializes the function with the function name $inc_name.
     */
-    function eZTemplateSequenceFunction()
+    function __construct()
     {
         $this->SequenceName = 'sequence';
     }

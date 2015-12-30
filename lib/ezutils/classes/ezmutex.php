@@ -25,7 +25,7 @@ class eZMutex
 
      \param mutex name
     */
-    function eZMutex( $name )
+    function __construct( $name )
     {
         $this->Name = md5( $name );
         $mutexPath = eZDir::path( array( eZSys::cacheDirectory(),

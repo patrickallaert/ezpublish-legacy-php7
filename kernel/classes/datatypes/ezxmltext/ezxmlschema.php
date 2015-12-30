@@ -139,7 +139,7 @@ class eZXMLSchema
                               'attributes' => false )
     );
 
-    function eZXMLSchema()
+    function __construct()
     {
         $ini = eZINI::instance( 'content.ini' );
 

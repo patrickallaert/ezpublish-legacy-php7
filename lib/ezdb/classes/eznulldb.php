@@ -21,9 +21,9 @@ class eZNullDB extends eZDBInterface
     /*!
       Does nothing.
     */
-    function eZNullDB( $parameters )
+    function __construct( $parameters )
     {
-        $this->eZDBInterface( $parameters );
+        parent::__construct( $parameters );
     }
 
     /*!

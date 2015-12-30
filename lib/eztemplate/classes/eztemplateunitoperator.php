@@ -40,7 +40,7 @@ class eZTemplateUnitOperator
     /*!
      Initializes the operator with the name $name, default is "si"
     */
-    function eZTemplateUnitOperator( $name = "si" )
+    function __construct( $name = "si" )
     {
         $this->SIName = $name;
         $this->Operators = array( $name );

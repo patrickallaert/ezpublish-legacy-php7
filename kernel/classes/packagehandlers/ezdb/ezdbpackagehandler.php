@@ -19,9 +19,9 @@ class eZDBPackageHandler extends eZPackageHandler
     /*!
      Constructor
     */
-    function eZDBPackageHandler()
+    function __construct()
     {
-        $this->eZPackageHandler( 'ezdb' );
+        parent::__construct( 'ezdb' );
     }
 
     /*!

@@ -18,7 +18,7 @@ class eZMultiOption2
     /*!
      Initializes with empty multioption2 list.
     */
-    function eZMultiOption2( $name, $id = 0, $multioptionIDCounter = 0, $optionCounter = 0, $groupID = 0 )
+    function __construct( $name, $id = 0, $multioptionIDCounter = 0, $optionCounter = 0, $groupID = 0 )
     {
         $this->Name = $name;
         $this->ID = $id;

@@ -10,7 +10,7 @@
 
 class eZDateOperatorCollection
 {
-    function eZDateOperatorCollection( $monthName = 'month_overview' )
+    function __construct( $monthName = 'month_overview' )
     {
         $this->MonthOverviewName = $monthName;
         $this->Operators = array( $monthName );

@@ -31,7 +31,7 @@ class eZTemplatePHPOperator
     /*!
      Initializes the object with the redirection array.
     */
-    function eZTemplatePHPOperator( $php_names )
+    function __construct( $php_names )
     {
         if ( !is_array( $php_names ) )
             $php_names = array( $php_names );

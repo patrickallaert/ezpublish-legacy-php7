@@ -21,7 +21,7 @@ class eZSOAPParameter
     /*!
       Creates a new SOAP parameter object.
     */
-    function eZSOAPParameter( $name, $value)
+    function __construct( $name, $value)
     {
         $this->Name = $name;
         $this->Value = $value;

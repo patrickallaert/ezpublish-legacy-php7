@@ -19,7 +19,7 @@ class eZPackageHandler
     /*!
      Constructor
     */
-    function eZPackageHandler( $handlerType, $parameters = array() )
+    function __construct( $handlerType, $parameters = array() )
     {
         $parameters = array_merge( array( 'extract-install-content' => false ),
                                    $parameters );

@@ -23,7 +23,7 @@ class eZUTF8Codec
     /*!
      Initializes utf8 codec.
     */
-    function eZUTF8Codec()
+    function __construct()
     {
     }
 

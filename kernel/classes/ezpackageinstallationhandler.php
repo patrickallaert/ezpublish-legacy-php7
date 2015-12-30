@@ -20,7 +20,7 @@ class eZPackageInstallationHandler
     /*!
      Constructor
     */
-    function eZPackageInstallationHandler( $package, $type, $installItem, $name = null, $steps = null )
+    function __construct( $package, $type, $installItem, $name = null, $steps = null )
     {
         $this->Package = $package;
         $this->Attributes = array( 'type' => $type,

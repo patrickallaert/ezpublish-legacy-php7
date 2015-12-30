@@ -19,7 +19,7 @@ class eZStringUtils
     /*!
      Constructor
     */
-    function eZStringUtils()
+    function __construct()
     {
     }
 

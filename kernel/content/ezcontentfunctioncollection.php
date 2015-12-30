@@ -19,7 +19,7 @@ class eZContentFunctionCollection
     /*!
      Constructor
     */
-    function eZContentFunctionCollection()
+    function __construct()
     {
     }
 

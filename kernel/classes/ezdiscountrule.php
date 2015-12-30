@@ -19,9 +19,9 @@ class eZDiscountRule extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZDiscountRule( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

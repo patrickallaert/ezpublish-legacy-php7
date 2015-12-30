@@ -17,7 +17,7 @@
 
 class eZSearch
 {
-    function eZSearch()
+    function __construct()
     {
 
     }

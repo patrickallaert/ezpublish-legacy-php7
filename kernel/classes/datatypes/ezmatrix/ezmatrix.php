@@ -20,7 +20,7 @@ class eZMatrix
     /*!
      Constructor
     */
-    function eZMatrix( $name, $numRows = false, $matrixColumnDefinition = false )
+    function __construct( $name, $numRows = false, $matrixColumnDefinition = false )
     {
         $this->Name = $name;
         $this->Matrix = array();

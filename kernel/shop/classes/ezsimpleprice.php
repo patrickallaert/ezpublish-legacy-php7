@@ -35,7 +35,7 @@ The available attributes are:
 
 class eZSimplePrice
 {
-    function eZSimplePrice( $classAttribute, $contentObjectAttribute, $storedPrice = null )
+    function __construct( $classAttribute, $contentObjectAttribute, $storedPrice = null )
     {
         $this->setVATIncluded( false );
 

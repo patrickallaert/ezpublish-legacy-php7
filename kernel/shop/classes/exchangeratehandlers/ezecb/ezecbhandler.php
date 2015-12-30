@@ -10,18 +10,18 @@
 
 class eZECBHandler extends eZExchangeRatesUpdateHandler
 {
-    function eZECBHandler()
+    function __construct()
     {
         $this->ServerName = false;
         $this->ServerPort = false;
         $this->RatesURI = false;
 
-        eZExchangeRatesUpdateHandler::eZExchangeRatesUpdateHandler();
+        parent::__construct();
     }
 
     function initialize( $params = array() )
     {
-        eZExchangeRatesUpdateHandler::initialize( $params );
+        parent::initialize( $params );
 
         $shopINI = eZINI::instance( 'shop.ini' );
         if ( !isset( $params['ServerName'] ) )

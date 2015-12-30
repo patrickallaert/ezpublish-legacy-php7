@@ -19,9 +19,9 @@ class eZCollaborationItemGroupLink extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZCollaborationItemGroupLink( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

@@ -42,7 +42,7 @@ class eZTemplateSetFunction
     /*!
      Initializes the function with the function names $setName and $letName.
     */
-    function eZTemplateSetFunction( $setName = 'set', $letName = 'let', $defaultName = 'default' )
+    function __construct( $setName = 'set', $letName = 'let', $defaultName = 'default' )
     {
         $this->SetName = $setName;
         $this->LetName = $letName;

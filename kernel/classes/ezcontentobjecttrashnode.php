@@ -22,9 +22,9 @@ class eZContentObjectTrashNode extends eZContentObjectTreeNode
      *
      * @param int|array $row
      */
-    function eZContentObjectTrashNode( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /**

@@ -19,7 +19,7 @@ class eZLDAPUser extends eZUser
     /*!
      Constructor
     */
-    function eZLDAPUser()
+    function __construct()
     {
     }
 

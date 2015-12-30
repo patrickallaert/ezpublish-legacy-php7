@@ -18,7 +18,7 @@ class eZNotificationEventFilter
     /*!
      Constructor
     */
-    function eZNotificationEventFilter()
+    function __construct()
     {
     }
 

@@ -24,7 +24,7 @@ class eZCodeMapper
     /*!
      Constructor
     */
-    function eZCodeMapper()
+    function __construct()
     {
         $this->TransformationTables = array();
         $this->TransformationFiles = array();

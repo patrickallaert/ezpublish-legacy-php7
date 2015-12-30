@@ -20,7 +20,7 @@ class eZKeyword
     /*!
      Construct a new keyword instance
     */
-    function eZKeyword( )
+    function __construct( )
     {
     }
 

@@ -16,9 +16,9 @@
 
 class eZWorkflowGroupType extends eZWorkflowType
 {
-    function eZWorkflowGroupType( $typeString, $name )
+    function __construct( $typeString, $name )
     {
-        $this->eZWorkflowType( "group", $typeString, ezpI18n::tr( 'kernel/workflow/group', "Group" ), $name );
+        parent::__construct( "group", $typeString, ezpI18n::tr( 'kernel/workflow/group', "Group" ), $name );
     }
 
     static function registerGroupType( $typeString, $class_name )

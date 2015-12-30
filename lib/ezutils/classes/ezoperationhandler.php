@@ -19,7 +19,7 @@ class eZOperationHandler
     /*!
      Constructor
     */
-    function eZOperationHandler()
+    function __construct()
     {
     }
 

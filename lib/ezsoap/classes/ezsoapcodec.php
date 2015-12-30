@@ -19,7 +19,7 @@ class eZSOAPCodec
     /*!
      Constructor
     */
-    function eZSOAPCodec()
+    function __construct()
     {
     }
 

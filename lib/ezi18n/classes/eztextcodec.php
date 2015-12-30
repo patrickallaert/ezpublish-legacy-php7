@@ -21,7 +21,7 @@
 
 class eZTextCodec
 {
-    function eZTextCodec( $inputCharsetCode, $outputCharsetCode,
+    function __construct( $inputCharsetCode, $outputCharsetCode,
                           $realInputCharsetCode, $realOutputCharsetCode,
                           $inputEncoding, $outputEncoding )
     {

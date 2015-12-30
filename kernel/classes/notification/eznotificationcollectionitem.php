@@ -19,9 +19,9 @@ class eZNotificationCollectionItem extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZNotificationCollectionItem( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

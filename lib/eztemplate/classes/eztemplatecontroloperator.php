@@ -27,7 +27,7 @@ class eZTemplateControlOperator
     /*!
      Initializes the operator class with the various operator names.
     */
-    function eZTemplateControlOperator(  /*! The name array */
+    function __construct(  /*! The name array */
         $condName = 'cond',
         $firstSetName = 'first_set' )
     {

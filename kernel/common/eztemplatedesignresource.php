@@ -30,9 +30,9 @@ class eZTemplateDesignResource extends eZTemplateFileResource
     /*!
      Initializes with a default resource name "design".
     */
-    function eZTemplateDesignResource( $name = "design" )
+    function __construct( $name = "design" )
     {
-        $this->eZTemplateFileResource( $name, true );
+        parent::__construct( $name, true );
         $this->Keys = array();
         $this->KeyStack = array();
     }

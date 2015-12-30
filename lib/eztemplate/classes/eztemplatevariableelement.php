@@ -21,7 +21,7 @@ class eZTemplateVariableElement
     /*!
      Initializes the object with the value array and operators.
     */
-    function eZTemplateVariableElement( $data )
+    function __construct( $data )
     {
         $this->Variable = $data;
     }

@@ -15,7 +15,7 @@
 
 class eZDFSMySQLBackendError
 {
-    function eZDFSMySQLBackendError( $value, $text )
+    function __construct( $value, $text )
     {
         $this->errorValue = $value;
         $this->errorText  = $text;

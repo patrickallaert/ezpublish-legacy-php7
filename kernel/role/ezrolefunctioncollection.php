@@ -19,7 +19,7 @@ class eZRoleFunctionCollection
     /*!
      Constructor
     */
-    function eZRoleFunctionCollection()
+    function __construct()
     {
     }
 

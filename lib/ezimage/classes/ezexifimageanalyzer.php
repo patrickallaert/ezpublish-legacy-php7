@@ -20,7 +20,7 @@ class eZEXIFImageAnalyzer
     /*!
      Constructor
     */
-    function eZEXIFImageAnalyzer()
+    function __construct()
     {
     }
 

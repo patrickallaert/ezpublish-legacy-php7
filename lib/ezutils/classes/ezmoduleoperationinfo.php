@@ -32,7 +32,7 @@ class eZModuleOperationInfo
      * @param string $moduleName
      * @param bool $useTriggers
      */
-    function eZModuleOperationInfo( $moduleName, $useTriggers = true )
+    function __construct( $moduleName, $useTriggers = true )
     {
         $this->ModuleName = $moduleName;
         $this->IsValid = false;

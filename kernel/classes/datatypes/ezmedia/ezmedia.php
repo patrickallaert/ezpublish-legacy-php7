@@ -17,9 +17,9 @@
 
 class eZMedia extends eZPersistentObject
 {
-    function eZMedia( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

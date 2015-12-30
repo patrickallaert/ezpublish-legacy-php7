@@ -23,9 +23,9 @@ class eZRSSImport extends eZPersistentObject
     /*!
      Initializes a new RSSImport.
     */
-    function eZRSSImport( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

@@ -29,7 +29,7 @@ class eZCharTransform
     /*!
      Constructor
     */
-    function eZCharTransform()
+    function __construct()
     {
     }
 

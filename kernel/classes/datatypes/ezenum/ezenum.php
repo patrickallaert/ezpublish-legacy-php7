@@ -20,7 +20,7 @@ class eZEnum
     /*!
      Constructor
     */
-    function eZEnum( $id, $version )
+    function __construct( $id, $version )
     {
         $this->ClassAttributeID = $id;
         $this->ClassAttributeVersion = $version;

@@ -19,9 +19,9 @@ class eZINIAddonPackageHandler extends eZPackageHandler
     /*!
      Constructor
     */
-    function eZINIAddonPackageHandler()
+    function __construct()
     {
-        $this->eZPackageHandler( 'eziniaddon',
+        parent::__construct( 'eziniaddon',
                                  array( 'extract-install-content' => true ) );
     }
 

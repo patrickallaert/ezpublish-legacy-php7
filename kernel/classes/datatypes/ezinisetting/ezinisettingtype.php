@@ -40,9 +40,9 @@ class eZIniSettingType extends eZDataType
     /*!
      Initializes with a string id and a description.
     */
-    function eZIniSettingType()
+    function __construct()
     {
-        $this->eZDataType( self::DATA_TYPE_STRING, ezpI18n::tr( 'kernel/classes/datatypes', 'Ini Setting', 'Datatype name' ),
+        parent::__construct( self::DATA_TYPE_STRING, ezpI18n::tr( 'kernel/classes/datatypes', 'Ini Setting', 'Datatype name' ),
                                                          array( 'translation_allowed' => false,
                                                                 'serialize_supported' => true ) );
     }

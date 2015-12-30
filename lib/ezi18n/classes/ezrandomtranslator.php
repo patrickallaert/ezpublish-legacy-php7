@@ -20,9 +20,9 @@ class eZRandomTranslator extends eZTranslatorGroup
     /*!
      Constructor
     */
-    function eZRandomTranslator( $is_key_based )
+    function __construct( $is_key_based )
     {
-        $this->eZTranslatorGroup( $is_key_based );
+        parent::__construct( $is_key_based );
         mt_srand();
     }
 

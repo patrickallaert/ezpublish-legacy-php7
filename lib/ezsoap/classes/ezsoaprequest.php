@@ -25,13 +25,13 @@ class eZSOAPRequest extends eZSOAPEnvelope
      \param namespace
      \param parameters, assosiative array, example: array( 'param1' => 'value1, 'param2' => 'value2' )
     */
-    function eZSOAPRequest( $name="", $namespace="", $parameters = array() )
+    function __construct( $name="", $namespace="", $parameters = array() )
     {
         $this->Name = $name;
         $this->Namespace = $namespace;
 
         // call the parents constructor
-        $this->eZSOAPEnvelope();
+        parent::__construct();
 
         foreach( $parameters as $name => $value )
         {

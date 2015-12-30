@@ -27,7 +27,7 @@ class eZTemplateRoot
     /*!
      Initializes the object.
     */
-    function eZTemplateRoot( $children = array() )
+    function __construct( $children = array() )
     {
         $this->Children = $children;
     }

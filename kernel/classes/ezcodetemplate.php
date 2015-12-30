@@ -28,7 +28,7 @@ class eZCodeTemplate
     /*!
      Constructor
     */
-    function eZCodeTemplate()
+    function __construct()
     {
         $ini = eZINI::instance( 'codetemplate.ini' );
         $this->Templates = array();

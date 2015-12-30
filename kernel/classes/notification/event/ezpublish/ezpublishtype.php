@@ -21,9 +21,9 @@ class eZPublishType extends eZNotificationEventType
     /*!
      Constructor
     */
-    function eZPublishType()
+    function __construct()
     {
-        $this->eZNotificationEventType( self::NOTIFICATION_TYPE_STRING );
+        parent::__construct( self::NOTIFICATION_TYPE_STRING );
     }
 
     function initializeEvent( $event, $params )

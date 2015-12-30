@@ -19,9 +19,9 @@ class eZCollaborationGroup extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZCollaborationGroup( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

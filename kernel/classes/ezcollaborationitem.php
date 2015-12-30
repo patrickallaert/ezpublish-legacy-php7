@@ -23,9 +23,9 @@ class eZCollaborationItem extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZCollaborationItem( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

@@ -19,7 +19,7 @@ class eZNotificationSchedule
     /*!
      Constructor
     */
-    function eZNotificationSchedule()
+    function __construct()
     {
     }
 

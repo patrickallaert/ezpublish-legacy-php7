@@ -19,7 +19,7 @@
 
 class eZDiffTextEngine extends eZDiffEngine
 {
-    function eZDiffTextEngine()
+    function __construct()
     {
     }
 

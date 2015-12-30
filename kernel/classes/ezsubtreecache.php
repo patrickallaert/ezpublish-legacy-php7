@@ -19,7 +19,7 @@ class eZSubtreeCache
     /*!
      Constructor
     */
-    function eZSubtreeCache()
+    function __construct()
     {
     }
 

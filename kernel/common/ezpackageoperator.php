@@ -19,7 +19,7 @@ class eZPackageOperator
     /*!
      Constructor
     */
-    function eZPackageOperator( $name = 'ezpackage' )
+    function __construct( $name = 'ezpackage' )
     {
         $this->Operators = array( $name );
     }

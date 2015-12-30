@@ -21,7 +21,7 @@ class eZTextInputParser
     /*!
 
     */
-    function eZTextInputParser()
+    function __construct()
     {
 
     }

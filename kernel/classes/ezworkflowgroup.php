@@ -16,9 +16,9 @@
 
 class eZWorkflowGroup extends eZPersistentObject
 {
-    function eZWorkflowGroup( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

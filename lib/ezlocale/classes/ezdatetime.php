@@ -64,7 +64,7 @@ class eZDateTime
      Creates a new datetime object with default locale, if $datetime is not supplied
      the current datetime is used.
     */
-    function eZDateTime( $datetime = false )
+    function __construct( $datetime = false )
     {
         if ( $datetime instanceof eZDate )
         {

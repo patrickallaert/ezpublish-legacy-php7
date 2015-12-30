@@ -24,7 +24,7 @@ class eZURLOperator
     /*!
      Initializes the image operator with the operator name $name.
     */
-    function eZURLOperator( $url_name = 'ezurl',
+    function __construct( $url_name = 'ezurl',
                             $urlroot_name = 'ezroot',
                             $ezsys_name = 'ezsys',
                             $design_name = 'ezdesign',

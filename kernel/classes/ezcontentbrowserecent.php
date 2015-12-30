@@ -32,9 +32,9 @@ eZContentBrowseRecent::fetchListForUser( $userID )
 */
 class eZContentBrowseRecent extends eZPersistentObject
 {
-    function eZContentBrowseRecent( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

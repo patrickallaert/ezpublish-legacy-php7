@@ -20,11 +20,11 @@ class eZImageTextLayer extends eZImageLayer
     /*!
      Constructor
     */
-    function eZImageTextLayer( $imageObjectRef = null, $imageObject = null,
+    function __construct( $imageObjectRef = null, $imageObject = null,
                                   $width = false, $height = false,
                                   $font = false, $boundingBox = null, $text = null, $textAngle = 0 )
     {
-        $this->eZImageLayer( $imageObjectRef, $imageObject, $width, $height, $font );
+        parent::__construct( $imageObjectRef, $imageObject, $width, $height, $font );
         $this->Text = $text;
         $this->TextAngle = $textAngle;
         $this->TextBoundingBox = $boundingBox;

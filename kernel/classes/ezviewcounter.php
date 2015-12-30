@@ -10,9 +10,9 @@
 
 class eZViewCounter extends eZPersistentObject
 {
-    function eZViewCounter( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

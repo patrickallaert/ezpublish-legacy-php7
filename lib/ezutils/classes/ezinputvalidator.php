@@ -83,7 +83,7 @@ class eZInputValidator
     /*!
      Default constructor, does nothing.
     */
-    function eZInputValidator()
+    function __construct()
     {
     }
 

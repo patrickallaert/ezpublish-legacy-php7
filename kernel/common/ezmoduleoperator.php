@@ -20,7 +20,7 @@ class eZModuleOperator
     /*!
      Constructor
     */
-    function eZModuleOperator( $name = 'ezmodule' )
+    function __construct( $name = 'ezmodule' )
     {
         $this->Operators = array( $name );
     }

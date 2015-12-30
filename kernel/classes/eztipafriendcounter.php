@@ -16,9 +16,9 @@
 
 class eZTipafriendCounter extends eZPersistentObject
 {
-    function eZTipafriendCounter( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

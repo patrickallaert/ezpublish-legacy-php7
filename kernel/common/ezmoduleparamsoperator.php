@@ -33,7 +33,7 @@ class eZModuleParamsOperator
     /*!
       Constructor, does nothing by default.
     */
-    function eZModuleParamsOperator()
+    function __construct()
     {
     }
 

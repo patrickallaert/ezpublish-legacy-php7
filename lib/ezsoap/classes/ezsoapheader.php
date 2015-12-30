@@ -17,7 +17,7 @@
 
 class eZSOAPHeader
 {
-    function eZSOAPHeader( )
+    function __construct( )
     {
 
     }

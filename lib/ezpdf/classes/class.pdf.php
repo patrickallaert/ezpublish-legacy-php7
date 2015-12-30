@@ -228,7 +228,7 @@ class Cpdf
      * this will start a new document
      * @var array array of 4 numbers, defining the bottom left and upper right corner of the page. first two are normally zero.
      */
-    function Cpdf ( $pageSize = array( 0, 0, 612, 792 ) )
+    function __construct ( $pageSize = array( 0, 0, 612, 792 ) )
     {
         $this->currentColour = eZMath::rgbToCMYK( array( 'r' => -1,
                                                          'g' => -1,

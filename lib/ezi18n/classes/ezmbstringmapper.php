@@ -26,7 +26,7 @@ class eZMBStringMapper
     /*!
      Constructor
     */
-    function eZMBStringMapper( $input_charset_code, $output_charset_code )
+    function __construct( $input_charset_code, $output_charset_code )
     {
         $this->RequestedInputCharsetCode = $input_charset_code;
         $this->InputCharsetCode = eZCharsetInfo::realCharsetCode( $input_charset_code );
@@ -49,7 +49,7 @@ class eZMBStringMapper
 
     /*!
      \static
-     \note This function is duplicated in eZTextCodec::eZTextCodec(), remember to update both places.
+     \note This function is duplicated in eZTextCodec::__construct(), remember to update both places.
     */
     static function &charsetList()
     {
@@ -82,7 +82,7 @@ class eZMBStringMapper
            mb_strrpos
            mb_strwidth
            mb_substr
-     \note This function is duplicated in eZTextCodec::eZTextCodec(), remember to update both places.
+     \note This function is duplicated in eZTextCodec::__construct(), remember to update both places.
     */
     static function hasMBStringExtension()
     {

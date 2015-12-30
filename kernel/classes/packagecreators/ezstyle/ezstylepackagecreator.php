@@ -20,7 +20,7 @@ class eZStylePackageCreator extends eZPackageCreationHandler
     /*!
      Constructor
     */
-    function eZStylePackageCreator( $id )
+    function __construct( $id )
     {
         $steps = array();
         $steps[] = $this->packageThumbnailStep();
@@ -39,7 +39,7 @@ class eZStylePackageCreator extends eZPackageCreationHandler
         $steps[] = $this->packageInformationStep();
         $steps[] = $this->packageMaintainerStep();
         $steps[] = $this->packageChangelogStep();
-        $this->eZPackageCreationHandler( $id,
+        parent::__construct( $id,
                                          ezpI18n::tr( 'kernel/package', 'Site style' ),
                                          $steps );
     }

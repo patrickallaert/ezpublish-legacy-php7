@@ -19,9 +19,9 @@ class eZPolicyLimitationValue extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZPolicyLimitationValue( $row )
+    function __construct( $row )
     {
-          $this->eZPersistentObject( $row );
+          parent::__construct( $row );
     }
 
 

@@ -12,7 +12,7 @@ class eZSerializedObjectNameList
 {
     const ALWAYS_AVAILABLE_STR = 'always-available';
 
-    function eZSerializedObjectNameList( $serializedNamesString = false )
+    function __construct( $serializedNamesString = false )
     {
         $this->DefaultLanguage = null;
 

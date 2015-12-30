@@ -34,7 +34,7 @@ class eZCLI
     /*!
      Initializes object and detects if the CLI is used.
     */
-    function eZCLI()
+    function __construct()
     {
         $endl = "<br/>";
         $webOutput = true;

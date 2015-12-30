@@ -21,7 +21,7 @@ class eZXMLOutputHandler
     /*!
      Constructor
     */
-    function eZXMLOutputHandler( $xmlData, $aliasedType, $contentObjectAttribute = null )
+    function __construct( $xmlData, $aliasedType, $contentObjectAttribute = null )
     {
         $this->XMLData = $xmlData;
         $this->AliasedHandler = null;

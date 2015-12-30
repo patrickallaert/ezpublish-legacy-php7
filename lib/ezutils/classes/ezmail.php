@@ -63,7 +63,7 @@ class eZMail
     /*!
       Constructs a new eZMail object.
     */
-    function eZMail()
+    function __construct()
     {
         $this->Mail = new ezpMail();
 

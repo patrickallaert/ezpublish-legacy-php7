@@ -19,7 +19,7 @@ class eZNotificationFunctionCollection
     /*!
      Constructor
     */
-    function eZNotificationFunctionCollection()
+    function __construct()
     {
     }
 

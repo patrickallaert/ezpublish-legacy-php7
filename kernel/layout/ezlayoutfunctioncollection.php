@@ -19,7 +19,7 @@ class eZLayoutFunctionCollection
     /*!
      Constructor
     */
-    function eZLayoutFunctionCollection()
+    function __construct()
     {
     }
 

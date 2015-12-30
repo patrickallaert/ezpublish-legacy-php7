@@ -33,7 +33,7 @@ class eZSysInfo
     /*!
      Constructor
     */
-    function eZSysInfo()
+    function __construct()
     {
     }
 

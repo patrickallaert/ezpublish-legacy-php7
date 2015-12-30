@@ -27,7 +27,7 @@ class eZTemplateFunctionElement
     /*!
      Initializes the function with a name and parameter array.
     */
-    function eZTemplateFunctionElement( $name, $params, $children = array() )
+    function __construct( $name, $params, $children = array() )
     {
         $this->Name = $name;
         $this->Params =& $params;

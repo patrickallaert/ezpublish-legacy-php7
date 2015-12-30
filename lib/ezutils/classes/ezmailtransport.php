@@ -19,7 +19,7 @@ class eZMailTransport
     /*!
      Constructor
     */
-    function eZMailTransport()
+    function __construct()
     {
     }
 

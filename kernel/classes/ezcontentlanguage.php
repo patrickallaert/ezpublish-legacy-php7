@@ -15,9 +15,9 @@ class eZContentLanguage extends eZPersistentObject
      *
      * \param row Parameter passed to the constructor of eZPersistentObject.
      */
-    function eZContentLanguage( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /**

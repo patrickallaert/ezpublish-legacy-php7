@@ -10,9 +10,9 @@
 
 class eZContentClassName extends eZPersistentObject
 {
-    function eZContentClassName( $row )
+    function __construct( $row )
     {
-        eZPersistentObject::eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

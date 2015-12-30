@@ -23,9 +23,9 @@ class eZMysqlSchema extends eZDBSchemaInterface
 
      \param db instance
     */
-    function eZMysqlSchema( $params )
+    function __construct( $params )
     {
-        $this->eZDBSchemaInterface( $params );
+        parent::__construct( $params );
     }
 
     function schema( $params = array() )

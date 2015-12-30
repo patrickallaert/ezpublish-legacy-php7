@@ -21,9 +21,9 @@ class eZNotificationEvent extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZNotificationEvent( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
         $this->TypeString = $this->attribute( 'event_type_string' );
     }
 

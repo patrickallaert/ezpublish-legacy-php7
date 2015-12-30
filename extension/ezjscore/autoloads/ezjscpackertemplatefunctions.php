@@ -84,7 +84,7 @@
 
 class ezjscPackerTemplateFunctions
 {
-    function ezjscPackerTemplateFunctions()
+    function __construct()
     {
     }
 

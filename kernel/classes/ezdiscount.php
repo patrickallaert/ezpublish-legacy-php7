@@ -10,7 +10,7 @@
 
 class eZDiscount
 {
-    function eZDiscount()
+    function __construct()
     {
     }
 

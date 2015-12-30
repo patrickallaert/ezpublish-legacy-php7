@@ -65,7 +65,7 @@ class eZDBSchemaInterface
 
      \sa eZDB
      */
-    function eZDBSchemaInterface( $params )
+    function __construct( $params )
     {
         $this->DBInstance = $params['instance'];
         $this->Schema = false;

@@ -10,7 +10,7 @@
 
 class eZShopAccountHandler
 {
-    function eZShopAccountHandler()
+    function __construct()
     {
 
     }

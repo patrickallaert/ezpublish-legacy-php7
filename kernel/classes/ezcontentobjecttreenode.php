@@ -41,9 +41,9 @@ class eZContentObjectTreeNode extends eZPersistentObject
      *
      * @param int|array $row
      */
-    function eZContentObjectTreeNode( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     /**

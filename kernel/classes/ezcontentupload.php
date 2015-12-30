@@ -54,7 +54,7 @@ class eZContentUpload
      Initializes the object with the session data if they are found.
      If \a $params is supplied it used instead.
     */
-    function eZContentUpload( $params = false )
+    function __construct( $params = false )
     {
         $http = eZHTTPTool::instance();
         if ( !$params && $http->hasSessionVariable( 'ContentUploadParameters' ) )

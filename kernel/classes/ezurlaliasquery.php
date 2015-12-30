@@ -95,7 +95,7 @@ class eZURLAliasQuery
      */
     public $items;
 
-    function eZURLAliasQuery()
+    function __construct()
     {
     }
 

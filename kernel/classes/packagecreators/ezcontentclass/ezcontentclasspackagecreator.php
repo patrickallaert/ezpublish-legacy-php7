@@ -17,7 +17,7 @@
 
 class eZContentClassPackageCreator extends eZPackageCreationHandler
 {
-    function eZContentClassPackageCreator( $id )
+    function __construct( $id )
     {
         $steps = array();
         $steps[] = array( 'id' => 'class',
@@ -29,7 +29,7 @@ class eZContentClassPackageCreator extends eZPackageCreationHandler
         $steps[] = $this->packageInformationStep();
         $steps[] = $this->packageMaintainerStep();
         $steps[] = $this->packageChangelogStep();
-        $this->eZPackageCreationHandler( $id,
+        parent::__construct( $id,
                                          ezpI18n::tr( 'kernel/package', 'Content class export' ),
                                          $steps );
     }

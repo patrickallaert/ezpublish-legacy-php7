@@ -25,7 +25,7 @@ class eZImageGDHandler extends eZImageHandler
     /*!
      Constructor
     */
-    function eZImageGDHandler( $handlerName, $isGloballyEnabled,
+    function __construct( $handlerName, $isGloballyEnabled,
                                $outputRewriteType = self::REPLACE_SUFFIX,
                                $conversionRules = false )
     {
@@ -106,7 +106,7 @@ class eZImageGDHandler extends eZImageHandler
         {
             $filters[] = array( 'name' => $filterName );
         }
-        $this->eZImageHandler( $handlerName, $isEnabled,
+        parent::__construct( $handlerName, $isEnabled,
                                $outputRewriteType,
                                $supportedInputMIMETypes, $supportedOutputMIMETypes,
                                $conversionRules, $filters );

@@ -16,9 +16,9 @@ class eZProductCollectionItemOption extends eZPersistentObject
      *
      * @param array $row Array of object attributes
      */
-    function eZProductCollectionItemOption( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
 
     }
 

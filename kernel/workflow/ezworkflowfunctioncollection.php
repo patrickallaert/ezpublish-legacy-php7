@@ -19,7 +19,7 @@ class eZWorkflowFunctionCollection
     /*!
      Constructor
     */
-    function eZWorkflowFunctionCollection()
+    function __construct()
     {
     }
 

@@ -20,7 +20,7 @@ class eZPackageCreationHandler
     /*!
      Constructor
     */
-    function eZPackageCreationHandler( $id, $name, $steps )
+    function __construct( $id, $name, $steps )
     {
         $this->Attributes = array( 'id' => $id,
                                    'name' => $name,

@@ -22,9 +22,9 @@ class eZPostgreSQLDB extends eZDBInterface
     /*!
       Creates a new eZPostgreSQLDB object and connects to the database.
     */
-    function eZPostgreSQLDB( $parameters )
+    function __construct( $parameters )
     {
-        $this->eZDBInterface( $parameters );
+        parent::__construct( $parameters );
 
         if ( !extension_loaded( 'pgsql' ) )
         {

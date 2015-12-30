@@ -16,9 +16,9 @@
 
 class eZContentClassClassGroup extends eZPersistentObject
 {
-    function eZContentClassClassGroup( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

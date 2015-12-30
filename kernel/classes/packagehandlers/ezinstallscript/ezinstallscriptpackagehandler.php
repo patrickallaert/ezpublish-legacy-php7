@@ -20,9 +20,9 @@ class eZInstallScriptPackageHandler extends eZPackageHandler
     /*!
      Constructor
     */
-    function eZInstallScriptPackageHandler()
+    function __construct()
     {
-        $this->eZPackageHandler( 'ezinstallscript',
+        parent::__construct( 'ezinstallscript',
                                  array( 'extract-install-content' => false ) );
     }
 

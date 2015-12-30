@@ -33,7 +33,7 @@ class eZUserLoginHandler
     /*!
      Constructor
     */
-    function eZUserLoginHandler()
+    function __construct()
     {
     }
 

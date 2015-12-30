@@ -19,7 +19,7 @@ class eZInfocollectorFunctionCollection
     /*!
      Constructor
     */
-    function eZInfocollectorFunctionCollection()
+    function __construct()
     {
     }
 

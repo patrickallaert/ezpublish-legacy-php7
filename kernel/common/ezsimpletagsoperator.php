@@ -10,7 +10,7 @@
 
 class eZSimpleTagsOperator
 {
-    function eZSimpleTagsOperator( $name = 'simpletags' )
+    function __construct( $name = 'simpletags' )
     {
         $this->Operators = array( $name );
     }

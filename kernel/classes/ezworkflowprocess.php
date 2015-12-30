@@ -16,9 +16,9 @@
 
 class eZWorkflowProcess extends eZPersistentObject
 {
-    function eZWorkflowProcess( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

@@ -25,7 +25,7 @@ class eZTemplateOperatorElement
     /*!
      Initializes the operator with a name and parameters.
     */
-    function eZTemplateOperatorElement( $name, $params, $resource = null, $templateName = null )
+    function __construct( $name, $params, $resource = null, $templateName = null )
     {
         $this->Name = $name;
         $this->Params = $params;

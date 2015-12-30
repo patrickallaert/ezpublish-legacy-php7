@@ -23,7 +23,7 @@ class eZContentObjectTreeNodeOperations
     /*!
      Constructor
     */
-    function eZContentObjectTreeNodeOperations()
+    function __construct()
     {
     }
 

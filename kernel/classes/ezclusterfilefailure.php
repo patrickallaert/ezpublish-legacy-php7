@@ -26,7 +26,7 @@ class eZClusterFileFailure
     // 1 - file expired
     // 2 - file contents must be manually generated
     // 3 - Failed to retrieve file from DFS
-    function eZClusterFileFailure( $errno, $message = false )
+    function __construct( $errno, $message = false )
     {
         $this->Errno = $errno;
         $this->Message = $message;

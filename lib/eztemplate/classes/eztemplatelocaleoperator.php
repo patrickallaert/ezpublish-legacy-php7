@@ -32,7 +32,7 @@ class eZTemplateLocaleOperator
      Initializes the object with the default locale.
      \note Add support for specifying the locale object.
     */
-    function eZTemplateLocaleOperator()
+    function __construct()
     {
         $this->Operators = array( 'l10n', 'locale', 'datetime', 'currentdate', 'maketime', 'makedate', 'gettime' );
         $this->LocaleName = 'l10n';

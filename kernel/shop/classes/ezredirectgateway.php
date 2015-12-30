@@ -25,11 +25,11 @@ class eZRedirectGateway extends eZPaymentGateway
     /*!
     Constructor.
     */
-    function eZRedirectGateway()
+    function __construct()
     {
         //__DEBUG__
         $this->logger   = eZPaymentLogger::CreateForAdd( "var/log/eZRedirectGateway.log" );
-        $this->logger->writeTimedString( 'eZRedirectGateway::eZRedirectGateway()' );
+        $this->logger->writeTimedString( 'eZRedirectGateway::__construct()' );
         //___end____
     }
 

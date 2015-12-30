@@ -45,9 +45,9 @@ class eZLintSchema extends eZDBSchemaInterface
      \param $db A dummy parameter, pass \c false.
      \param $otherSchema The db schema that should be checked
     */
-    function eZLintSchema( $db, $otherSchema )
+    function __construct( $db, $otherSchema )
     {
-        $this->eZDBSchemaInterface( $db );
+        parent::__construct( $db );
         $this->OtherSchema = $otherSchema;
         $this->CorrectSchema = false;
         $this->IsLintChecked = false;

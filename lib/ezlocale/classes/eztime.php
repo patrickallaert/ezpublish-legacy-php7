@@ -76,7 +76,7 @@ class eZTime
      Creates a new time object with default locale, if $time is not supplied
      the current time is used.
     */
-    function eZTime( $timestamp = false )
+    function __construct( $timestamp = false )
     {
         if ( $timestamp === false )
         {

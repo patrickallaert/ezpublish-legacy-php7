@@ -23,7 +23,7 @@ abstract class eZURLAliasFilter
     /**
      * Initialize the filter object.
      */
-    public function eZURLAliasFilter()
+    public function __construct()
     {
     }
 

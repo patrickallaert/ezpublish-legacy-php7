@@ -293,7 +293,7 @@ class eZTemplate
      Intializes the template with left and right delimiters being { and },
      and a file resource. The literal tag "literal" is also registered.
     */
-    function eZTemplate()
+    function __construct()
     {
         $this->Tree = array( eZTemplate::NODE_ROOT, false );
         $this->LDelim = "{";

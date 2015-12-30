@@ -19,7 +19,7 @@ class eZSectionFunctionCollection
     /*!
      Constructor
     */
-    function eZSectionFunctionCollection()
+    function __construct()
     {
     }
 

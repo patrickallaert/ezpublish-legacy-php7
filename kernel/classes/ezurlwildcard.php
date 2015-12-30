@@ -53,9 +53,9 @@ class eZURLWildcard extends eZPersistentObject
      * Initializes a new URL alias persistent object
      * @param array $row
      */
-    public function eZURLWildcard( $row )
+    public function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     public static function definition()

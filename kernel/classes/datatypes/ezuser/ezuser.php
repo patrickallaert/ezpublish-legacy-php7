@@ -52,9 +52,9 @@ class eZUser extends eZPersistentObject
 
     protected static $anonymousId = null;
 
-    function eZUser( $row = array() )
+    function __construct( $row = array() )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
         $this->OriginalPassword = false;
         $this->OriginalPasswordConfirm = false;
     }

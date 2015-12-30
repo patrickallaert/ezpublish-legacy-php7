@@ -21,9 +21,9 @@ class eZRSSExportItem extends eZPersistentObject
     /*!
      Initializes a new RSSExportItem.
     */
-    function eZRSSExportItem( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

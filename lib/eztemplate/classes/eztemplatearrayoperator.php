@@ -29,7 +29,7 @@ class eZTemplateArrayOperator
     /*!
      Initializes the array operator with the operator name $name.
     */
-    function eZTemplateArrayOperator( $arrayName        = 'array',
+    function __construct( $arrayName        = 'array',
                                       $hashName         = 'hash',
                                       $arrayPrependName = 'array_prepend', // DEPRECATED/OBSOLETE
                                       $prependName      = 'prepend',       // New, replaces array_prepend.

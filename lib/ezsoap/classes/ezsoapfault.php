@@ -20,7 +20,7 @@ class eZSOAPFault
     /*!
      Constructs a new eZSOAPFault object
     */
-    function eZSOAPFault( $faultCode = "", $faultString = "" )
+    function __construct( $faultCode = "", $faultString = "" )
     {
         $this->FaultCode = $faultCode;
         $this->FaultString = $faultString;

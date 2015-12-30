@@ -32,7 +32,7 @@ class eZHTTPFile
     /*!
      Initializes with a name and http variable.
     */
-    function eZHTTPFile( /*! Name of the HTTP variable */ $http_name,
+    function __construct( /*! Name of the HTTP variable */ $http_name,
                          /*! The HTTP variable structure */ $variable )
     {
         $this->HTTPName = $http_name;

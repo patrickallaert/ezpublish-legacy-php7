@@ -36,7 +36,7 @@ class eZTemplateTypeOperator
     /*!
      Initializes the operator class with the various operator names.
     */
-    function eZTemplateTypeOperator(  /*! The name array */
+    function __construct(  /*! The name array */
                                       $isArrayName = "is_array",
                                       $isBooleanName = "is_boolean",
                                       $isIntegerName = "is_integer",

@@ -19,9 +19,9 @@ class eZOperationMemento extends eZPersistentObject
     /*!
      Constructor
     */
-    function eZOperationMemento( $row )
+    function __construct( $row )
     {
-        $this->eZPersistentObject( $row );
+        parent::__construct( $row );
     }
 
     static function definition()

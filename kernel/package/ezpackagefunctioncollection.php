@@ -19,7 +19,7 @@ class eZPackageFunctionCollection
     /*!
      Constructor
     */
-    function eZPackageFunctionCollection()
+    function __construct()
     {
     }
 

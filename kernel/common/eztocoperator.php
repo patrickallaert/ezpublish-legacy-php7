@@ -19,7 +19,7 @@ class eZTOCOperator
     /*!
      Constructor
     */
-    function eZTOCOperator()
+    function __construct()
     {
     }
 

@@ -36,9 +36,9 @@ class eZCompressionHandler extends eZFileHandler
      Initializes the handler. Optionally the parameters \a $filename
      and \a $mode may be provided to automatically open the file.
     */
-    function eZCompressionHandler( $handlerIdentifier, $handlerName )
+    function __construct( $handlerIdentifier, $handlerName )
     {
-        $this->eZFileHandler( $handlerIdentifier, $handlerName );
+        parent::__construct( $handlerIdentifier, $handlerName );
     }
 
     /*!

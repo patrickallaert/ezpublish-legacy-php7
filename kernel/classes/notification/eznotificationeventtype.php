@@ -19,7 +19,7 @@ class eZNotificationEventType
     /*!
      Constructor
     */
-    function eZNotificationEventType( $notificationEventTypeString )
+    function __construct( $notificationEventTypeString )
     {
         $this->NotificationEventTypeString = $notificationEventTypeString;
     }

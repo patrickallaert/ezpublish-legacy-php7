@@ -24,7 +24,7 @@ class eZNotificationEventHandler
     /*!
      Constructor
     */
-    function eZNotificationEventHandler( $idString, $name )
+    function __construct( $idString, $name )
     {
         $this->IDString = $idString;
         $this->Name = $name;
