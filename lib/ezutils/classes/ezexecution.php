@@ -177,7 +177,7 @@ class eZExecution
      * @params Exception the exception
      * @return void
      */
-    static public function defaultExceptionHandler( Exception $e )
+    static public function defaultExceptionHandler( Throwable $e )
     {
         if( PHP_SAPI != 'cli' )
         {
