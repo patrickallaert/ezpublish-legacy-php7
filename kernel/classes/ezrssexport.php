@@ -20,14 +20,6 @@ class eZRSSExport extends eZPersistentObject
     const STATUS_VALID = 1;
     const STATUS_DRAFT = 0;
 
-    /*!
-     Initializes a new RSSExport.
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( 'fields' => array( 'id' => array( 'name' => 'ID',

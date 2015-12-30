@@ -15,14 +15,6 @@
 */
 class eZTipafriendRequest extends eZPersistentObject
 {
-    /*!
-     Constructor
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( "fields" => array( 'email_receiver' => array( 'name' => 'EmailReceiver',

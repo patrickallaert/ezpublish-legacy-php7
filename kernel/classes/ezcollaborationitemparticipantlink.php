@@ -31,14 +31,6 @@ class eZCollaborationItemParticipantLink extends eZPersistentObject
     // Everything from 1024 and above is considered custom and is specific per collaboration handler.
     const ROLE_CUSTOM = 1024;
 
-    /*!
-     Constructor
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( 'fields' => array( 'collaboration_id' => array( 'name' => 'CollaborationID',

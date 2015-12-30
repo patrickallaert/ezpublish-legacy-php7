@@ -10,11 +10,6 @@
 
 class eZPlainXMLOutput extends eZXMLOutputHandler
 {
-    function __construct( &$xmlData, $aliasedType )
-    {
-        parent::__construct( $xmlData, $aliasedType );
-    }
-
     function &outputText()
     {
         $retText = "<pre>" . htmlspecialchars( $this->xmlData() ) . "</pre>";

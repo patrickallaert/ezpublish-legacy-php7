@@ -17,11 +17,6 @@
 
 class eZBinaryFile extends eZPersistentObject
 {
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         static $definition = array( 'fields' => array( 'contentobject_attribute_id' => array( 'name' => 'ContentObjectAttributeID',

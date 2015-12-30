@@ -24,14 +24,6 @@ class eZPaymentObject extends eZPersistentObject
     const STATUS_APPROVED = 1;
 
     /*!
-    Constructor.
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
-    /*!
      \static
     Creates new object.
     */

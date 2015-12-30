@@ -23,11 +23,6 @@ class eZBasket extends eZPersistentObject
     */
     const ITEM_LIMIT = 3000;
 
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     /*!
      \return the persistent object definition for the eZCard class.
     */

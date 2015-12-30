@@ -10,11 +10,6 @@
 
 class eZViewCounter extends eZPersistentObject
 {
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( "fields" => array( "node_id" => array( 'name' => "NodeID",

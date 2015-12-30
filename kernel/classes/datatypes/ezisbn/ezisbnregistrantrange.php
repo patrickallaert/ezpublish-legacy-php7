@@ -29,14 +29,6 @@
 class eZISBNRegistrantRange extends eZPersistentObject
 {
     /*!
-     Constructor
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
-    /*!
       Definition of the ranges for ISBN Registrant.
     */
     static function definition()

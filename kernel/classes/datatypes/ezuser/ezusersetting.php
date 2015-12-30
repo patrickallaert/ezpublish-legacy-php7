@@ -16,11 +16,6 @@
 
 class eZUserSetting extends eZPersistentObject
 {
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         static $definition = array( 'fields' => array( 'user_id' => array( 'name' => 'UserID',

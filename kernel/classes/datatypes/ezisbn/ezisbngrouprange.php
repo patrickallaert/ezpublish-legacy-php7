@@ -25,15 +25,6 @@
 class eZISBNGroupRange extends eZPersistentObject
 {
     /*!
-     Constructor
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
-
-    /*!
       Definition of the ranges for ISBN groups.
     */
     static function definition()

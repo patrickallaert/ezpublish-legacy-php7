@@ -17,11 +17,6 @@
 
 class eZImageFile extends eZPersistentObject
 {
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         static $definition = array( 'fields' => array( 'id' => array( 'name' => 'id',

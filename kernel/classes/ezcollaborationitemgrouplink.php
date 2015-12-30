@@ -16,14 +16,6 @@
 
 class eZCollaborationItemGroupLink extends eZPersistentObject
 {
-    /*!
-     Constructor
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( 'fields' => array( 'collaboration_id' => array( 'name' => 'CollaborationID',

@@ -20,14 +20,6 @@ class eZCollaborationItem extends eZPersistentObject
     const STATUS_INACTIVE = 2;
     const STATUS_ARCHIVE = 3;
 
-    /*!
-     Constructor
-    */
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( 'fields' => array( 'id' => array( 'name' => 'ID',

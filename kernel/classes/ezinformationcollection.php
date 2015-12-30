@@ -20,11 +20,6 @@
 
 class eZInformationCollection extends eZPersistentObject
 {
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     /*!
      \return the persistent object definition for the eZInformationCollection class.
     */

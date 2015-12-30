@@ -16,11 +16,6 @@
 
 class eZContentClassClassGroup extends eZPersistentObject
 {
-    function __construct( $row )
-    {
-        parent::__construct( $row );
-    }
-
     static function definition()
     {
         return array( "fields" => array( "contentclass_id" => array( 'name' => "ContentClassID",
