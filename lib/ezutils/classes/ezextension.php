@@ -29,14 +29,6 @@ class eZExtension
      * @var array
      */
     protected static $activeExtensionsCache = array();
-
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     /**
      * return the base directory for extensions
      *

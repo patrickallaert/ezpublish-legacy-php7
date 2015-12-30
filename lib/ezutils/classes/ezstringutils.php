@@ -16,13 +16,6 @@
 
 class eZStringUtils
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     static function  explodeStr( $str, $delimiter = '|' )
     {
         $offset = 0;

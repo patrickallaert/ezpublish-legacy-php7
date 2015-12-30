@@ -17,13 +17,6 @@
 
 class eZKeyword
 {
-    /*!
-     Construct a new keyword instance
-    */
-    function __construct( )
-    {
-    }
-
     function attributes()
     {
         return array( 'keywords',

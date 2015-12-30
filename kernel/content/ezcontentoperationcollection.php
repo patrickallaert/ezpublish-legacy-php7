@@ -20,14 +20,6 @@ class eZContentOperationCollection
      * Use by {@see beginTransaction()} and {@see commitTransaction()} to handle nested publish operations
      */
     private static $operationsStack = 0;
-
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     static public function readNode( $nodeID )
     {
 

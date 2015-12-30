@@ -31,13 +31,6 @@
 class eZSysInfo
 {
     /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
-    /*!
      \return An array with available attributes.
      The available attributes:
      - cpu_type - cpuType()

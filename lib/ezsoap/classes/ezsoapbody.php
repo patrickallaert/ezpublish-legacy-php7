@@ -15,14 +15,6 @@
 
 class eZSOAPBody
 {
-    /*!
-     Creates a new SOAP body object.
-    */
-    function __construct( )
-    {
-
-    }
-
 }
 
 ?>

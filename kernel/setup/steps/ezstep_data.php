@@ -16,10 +16,6 @@
 
 class eZStepData
 {
-    function __construct( )
-    {
-    }
-
     /*!
       \static
       Get file and class info for specified step

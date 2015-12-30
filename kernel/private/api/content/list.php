@@ -16,10 +16,6 @@
  */
 class ezpContentList implements Countable, Iterator
 {
-    public function __construct()
-    {
-    }
-
     /**
      * Countable::count
      * @return int

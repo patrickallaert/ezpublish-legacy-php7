@@ -11,14 +11,6 @@
 class eZAudit
 {
     const DEFAULT_LOG_DIR = 'log/audit';
-
-    /**
-     * Creates a new audit object.
-     */
-    function __construct()
-    {
-    }
-
     /**
      * Returns an associative array of all names of audit and the log files used by this class,
      * Will be fetched from ini settings.

@@ -16,10 +16,6 @@
 
 class eZDiffXMLTextEngine extends eZDiffEngine
 {
-    function __construct()
-    {
-    }
-
     /*!
       This function calculates changes in xml text and creates an object to hold
       overview of changes.

@@ -16,13 +16,6 @@
 
 class eZCollaborationFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchParticipant( $itemID, $participantID )
     {
         if ( $participantID === false )

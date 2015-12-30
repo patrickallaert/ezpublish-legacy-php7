@@ -16,13 +16,6 @@
 
 class eZDefaultConfirmOrderHandler
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function execute( $params = array() )
     {
         $ini = eZINI::instance();

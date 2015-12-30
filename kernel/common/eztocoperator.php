@@ -17,13 +17,6 @@
 class eZTOCOperator
 {
     /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
-    /*!
      \return an array with the template operator name.
     */
     function operatorList()

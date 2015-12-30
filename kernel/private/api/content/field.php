@@ -15,11 +15,6 @@
  */
 class ezpContentField
 {
-    public function __construct()
-    {
-
-    }
-
     /**
      * Initializes an ezpContentField using an eZContentObjectAttribute
      * @param eZContentObjectAttribute $attribute

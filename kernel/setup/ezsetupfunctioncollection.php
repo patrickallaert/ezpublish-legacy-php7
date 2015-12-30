@@ -16,13 +16,6 @@
 
 class eZSetupFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
 
     function fetchFullVersionString()
     {

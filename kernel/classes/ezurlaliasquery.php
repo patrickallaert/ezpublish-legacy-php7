@@ -94,11 +94,6 @@ class eZURLAliasQuery
      Cached value of the fetch items.
      */
     public $items;
-
-    function __construct()
-    {
-    }
-
     function hasAttribute( $name )
     {
         return $name !== "query" && array_key_exists( $name, get_object_vars( $this ) );

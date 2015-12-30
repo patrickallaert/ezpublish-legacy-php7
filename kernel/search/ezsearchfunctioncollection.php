@@ -16,13 +16,6 @@
 
 class eZSearchFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchSearchListCount()
     {
         $db = eZDB::instance();

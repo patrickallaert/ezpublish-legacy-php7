@@ -19,10 +19,6 @@
 
 class eZDiffContainerObjectEngine extends eZDiffEngine
 {
-    function __construct()
-    {
-    }
-
     /*!
       Create containerobject containig content from two versions
     */

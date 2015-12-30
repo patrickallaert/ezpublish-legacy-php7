@@ -17,15 +17,6 @@
 class ezpContentFieldSet implements ArrayAccess, Iterator
 {
     /**
-     * Initializes the fields set with a content object + language
-     * @param int $contentObjectID
-     * @param string $locale If not provided, uses the default one for the active siteaccess
-     */
-    public function __construct()
-    {
-    }
-
-    /**
      * Initializes a level one ezpContentFieldSet from an eZContentObject
      * @param eZContentObject $contentObject
      * @return ezpContentFieldSet

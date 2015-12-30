@@ -15,13 +15,6 @@
 */
 class eZShopOperationCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchOrder( $orderID )
     {
         return array( 'status' => eZModuleOperationInfo::STATUS_CONTINUE );

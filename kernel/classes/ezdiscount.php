@@ -10,10 +10,6 @@
 
 class eZDiscount
 {
-    function __construct()
-    {
-    }
-
     /*!
      \static
      params = array( 'contentclass_id' => classID,

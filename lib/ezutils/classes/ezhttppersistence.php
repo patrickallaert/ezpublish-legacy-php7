@@ -20,13 +20,6 @@
 class eZHTTPPersistence
 {
     /**
-     * Initializes the class.
-     */
-    public function __construct()
-    {
-    }
-
-    /**
      * Fetches the HTTP post variables using the base name $base_name and stores
      * them in the object $objects, if $is_array is true then $objects is assumed
      * to be an array and all objects are updated.

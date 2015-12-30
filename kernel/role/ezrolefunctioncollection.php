@@ -16,13 +16,6 @@
 
 class eZRoleFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchRole( $roleID )
     {
         $role = eZRole::fetch( $roleID );

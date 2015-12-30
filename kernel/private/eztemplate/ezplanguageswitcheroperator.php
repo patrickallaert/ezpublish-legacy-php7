@@ -10,10 +10,6 @@
 
 class ezpLanguageSwitcherOperator
 {
-    function __construct()
-    {
-    }
-
     function operatorList()
     {
         return array( 'language_switcher' );

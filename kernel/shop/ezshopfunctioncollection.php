@@ -16,13 +16,6 @@
 
 class eZShopFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchBasket( )
     {
         $http = eZHTTPTool::instance();

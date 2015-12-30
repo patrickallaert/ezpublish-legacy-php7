@@ -16,13 +16,6 @@
 
 class eZUserOperationCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
    /**
      * Changes user settings
      *

@@ -18,7 +18,6 @@ class eZRegExpValidator extends eZInputValidator
 {
     function __construct( $rule = null )
     {
-        parent::__construct();
         $this->RegExpRule = $rule;
     }
 

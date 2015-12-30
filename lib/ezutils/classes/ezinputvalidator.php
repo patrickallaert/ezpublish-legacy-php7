@@ -79,14 +79,6 @@ class eZInputValidator
     const STATE_ACCEPTED = 1;
     const STATE_INTERMEDIATE = 2;
     const STATE_INVALID = 3;
-
-    /*!
-     Default constructor, does nothing.
-    */
-    function __construct()
-    {
-    }
-
     /*!
      Tries to validate to the text \a $text and returns one of the validator states
      eZInputValidator::STATE_ACCEPTED, eZInputValidator::STATE_INTERMEDIATE or

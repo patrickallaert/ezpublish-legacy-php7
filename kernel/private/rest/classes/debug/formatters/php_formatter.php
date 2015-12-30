@@ -10,14 +10,6 @@
 class ezpRestDebugPHPFormatter implements ezcDebugOutputFormatter
 {
     /**
-     * Constructor
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * Returns a string containing the formatted output based on $timerData and $writerData.
      *
      * @param array(ezcDebugStructure) $timerData

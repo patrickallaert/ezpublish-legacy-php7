@@ -17,11 +17,6 @@
 class eZURLAliasFilterAppendNodeID extends eZURLAliasFilter
 {
     /**
-     * Empty constructor
-     */
-    public function __construct() {}
-
-    /**
      * Append the node ID of the object being published
      * So its URL alias will look like :
      * someurlalias-<nodeID>

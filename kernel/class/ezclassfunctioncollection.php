@@ -16,13 +16,6 @@
 
 class eZClassFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchClassListByGroups( $groupFilter, $groupFilterType = 'include' )
     {
         $notIn = ( $groupFilterType == 'exclude' );

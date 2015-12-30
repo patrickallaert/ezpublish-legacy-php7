@@ -16,13 +16,6 @@
 
 class eZUserFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchCurrentUser()
     {
         $user = eZUser::currentUser();

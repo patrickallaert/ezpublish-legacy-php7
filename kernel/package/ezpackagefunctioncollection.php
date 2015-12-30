@@ -16,13 +16,6 @@
 
 class eZPackageFunctionCollection
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     function fetchList( $filterArray = false, $offset, $limit, $repositoryID )
     {
         $filterParams = array();

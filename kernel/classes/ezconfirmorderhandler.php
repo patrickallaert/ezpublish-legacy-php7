@@ -16,13 +16,6 @@
 
 class eZConfirmOrderHandler
 {
-    /*!
-     Constructor
-    */
-    function __construct()
-    {
-    }
-
     /**
      * Returns a shared instance of the eZConfirmOrderHandler class
      * as defined in shopaccount.ini[HandlerSettings]Repositories
